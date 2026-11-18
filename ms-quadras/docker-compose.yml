@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mysql-quadras:
+    image: mysql:8.0
+    container_name: mysql-quadras
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: quadras
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - network-gs
+
+networks:
+  network-gs:
+    driver: bridge
