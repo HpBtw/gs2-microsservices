@@ -1,10 +1,10 @@
-# 🏟️ Arena Cidadã — Plataforma de Gestão de Espaços Esportivos Públicos
+# Arena Cidadã — Plataforma de Gestão de Espaços Esportivos Públicos
 
 **Global Solution 2026/02 — Microservice and Web Engineering
 
 ---
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 
 
 | Nome Completo          | RM         |
@@ -51,7 +51,7 @@ A solução foi construída em arquitetura de **microsserviços com comunicaçã
 | **`eureka-server`** | Servidor de registro e descoberta de instâncias | `8761` (fixa)   | — |
 | **`api-gateway`** | Ponto único de entrada e roteamento dinâmico | `8082` (fixa)   | — |
 | **`ms-quadras`** | Gestão de quadras esportivas e ocorrências de zeladoria | Aleatória (`0`) | MySQL (`quadras` — porta `3306`) |
-| **`ms-reservas`** | Gestão de reservas e integração síncrona via OpenFeign | Aleatória (`1`) | MySQL (`reservas` — porta `3307`) |
+| **`ms-reservas`** | Gestão de reservas e integração síncrona via OpenFeign | Aleatória (`0`) | MySQL (`reservas` — porta `3307`) |
 
 ---
 
@@ -176,7 +176,7 @@ DELETE /api/v1/reservas/{id} — Exclui uma reserva (204 No Content)
 
 PATCH /api/v1/reservas/{id}/... — Operações de transição de status integradas entre os microsserviços
 
-🧪 Roteiro de Validação e Testes
+Roteiro de Validação e Testes
 Verificação de Registro e Balanceamento:
 
 Acesse http://localhost:8761 e confirme que API-GATEWAY, MS-QUADRAS e MS-RESERVAS constam com status UP.
