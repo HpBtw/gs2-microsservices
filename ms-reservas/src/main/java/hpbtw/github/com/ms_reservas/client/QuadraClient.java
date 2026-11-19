@@ -1,6 +1,6 @@
-package hpbtw.github.com.ms_quadras.client;
+package hpbtw.github.com.ms_reservas.client;
 
-import hpbtw.github.com.ms_quadras.dtos.QuadraResponseDTO;
+import hpbtw.github.com.ms_reservas.dto.QuadraResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

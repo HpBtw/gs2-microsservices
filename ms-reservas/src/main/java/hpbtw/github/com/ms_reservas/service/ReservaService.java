@@ -1,8 +1,8 @@
 package hpbtw.github.com.ms_reservas.service;
 
 import feign.FeignException;
-import hpbtw.github.com.ms_quadras.client.QuadraClient;
-import hpbtw.github.com.ms_quadras.dtos.QuadraResponseDTO;
+import hpbtw.github.com.ms_reservas.client.QuadraClient;
+import hpbtw.github.com.ms_reservas.dto.QuadraResponseDTO;
 import hpbtw.github.com.ms_reservas.dto.ReservaRequestDTO;
 import hpbtw.github.com.ms_reservas.dto.ReservaResponseDTO;
 import hpbtw.github.com.ms_reservas.entity.Reserva;
