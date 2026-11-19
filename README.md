@@ -1,10 +1,10 @@
-# 🏟️ Arena Cidadã — Plataforma de Gestão de Espaços Esportivos Públicos
+# Arena Cidadã — Plataforma de Gestão de Espaços Esportivos Públicos
 
 **Global Solution 2026/02 — Microservice and Web Engineering
 
 ---
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 
 
 | Nome Completo          | RM         |
@@ -176,7 +176,7 @@ DELETE /api/v1/reservas/{id} — Exclui uma reserva (204 No Content)
 
 PATCH /api/v1/reservas/{id}/... — Operações de transição de status integradas entre os microsserviços
 
-🧪 Roteiro de Validação e Testes
+Roteiro de Validação e Testes
 Verificação de Registro e Balanceamento:
 
 Acesse http://localhost:8761 e confirme que API-GATEWAY, MS-QUADRAS e MS-RESERVAS constam com status UP.
