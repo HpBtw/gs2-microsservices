@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mysql-reservas:
+    image: mysql:8.0
+    container_name: mysql-reservas
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: reservas
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - network-gs
+
+networks:
+  network-gs:
+    driver: bridge

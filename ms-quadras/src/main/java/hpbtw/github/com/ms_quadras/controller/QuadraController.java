@@ -67,7 +67,7 @@ public class QuadraController {
         return ResponseEntity.ok(responseDTO);
     }
 
-    @PatchMapping("/{id}/interditar")
+    @PutMapping("/{id}/interditar")
     public ResponseEntity<QuadraResponseDTO> interditarQuadra(@PathVariable Long id) {
         QuadraResponseDTO responseDTO = quadraService.interditarQuadra(id);
         return ResponseEntity.ok(responseDTO);
