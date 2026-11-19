@@ -51,7 +51,7 @@ A solução foi construída em arquitetura de **microsserviços com comunicaçã
 | **`eureka-server`** | Servidor de registro e descoberta de instâncias | `8761` (fixa)   | — |
 | **`api-gateway`** | Ponto único de entrada e roteamento dinâmico | `8082` (fixa)   | — |
 | **`ms-quadras`** | Gestão de quadras esportivas e ocorrências de zeladoria | Aleatória (`0`) | MySQL (`quadras` — porta `3306`) |
-| **`ms-reservas`** | Gestão de reservas e integração síncrona via OpenFeign | Aleatória (`1`) | MySQL (`reservas` — porta `3307`) |
+| **`ms-reservas`** | Gestão de reservas e integração síncrona via OpenFeign | Aleatória (`0`) | MySQL (`reservas` — porta `3307`) |
 
 ---
 
