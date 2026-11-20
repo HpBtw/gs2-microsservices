@@ -131,6 +131,15 @@ Swagger UI (ms-quadras): http://localhost:<PORTA_MS_QUADRAS>/swagger-ui/index.ht
 
 Swagger UI (ms-reservas): http://localhost:<PORTA_MS_RESERVAS>/swagger-ui/index.html
 
+*IMPORTANTE*: É preciso inserir manualmente alguma ocorrência, tente:
+{
+  "titulo": "Refletor queimado na lateral norte",
+  "descricao": "Dois refletores da lateral norte da quadra estão queimados, prejudicando a visibilidade nos jogos noturnos.",
+  "fotoUrl": "https://arenacidada.com.br/fotos/ocorrencia-refletor-01.jpg",
+  "solicitanteNome": "Lucas Almeida Santos",
+  "quadraId": 1
+}
+
 Principais Endpoints Versionados (/api/v1)
 ms-quadras (Direto ou via Gateway em http://localhost:8082/ms-quadras/api/v1/...)
 GET /api/v1/quadras — Lista todas as quadras cadastradas
