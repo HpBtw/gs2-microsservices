@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS tb_ocorrencia_zeladoria (
                                                        titulo VARCHAR(120) NOT NULL,
     descricao VARCHAR(500) NOT NULL,
     foto_url VARCHAR(255),
-    solicitanteNome VARCHAR(100) NOT NULL,
+    solicitante_nome VARCHAR(100) NOT NULL,
     status VARCHAR(50) NOT NULL,
     data_abertura DATE NOT NULL,
     data_resolucao DATE,
